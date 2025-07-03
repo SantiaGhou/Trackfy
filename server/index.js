@@ -916,7 +916,7 @@ app.use((req, res) => {
 });
 
 // Start server and schedule cleanup
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`🚀 Trackfy API Server running on http://localhost:${PORT}`);
   console.log(`📁 Data will be stored in: ${DATA_FILE}`);
   console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
