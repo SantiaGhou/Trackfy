@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://skssckk0oc4sc8gsgoco00oo.trackifytransporte.com.sslip.io/api';
+const API_BASE_URL = 'http://trackfy-api:3001/api';
 
 export interface TrackingCode {
   id: string;
